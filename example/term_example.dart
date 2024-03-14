@@ -16,30 +16,11 @@ void main() {
   // Cursor
   stdout.write('\nCursor');
   wait();
-  TermCursor.up(n: 2);
+  TermCursor.up();
   wait();
-  TermCursor.down(n: 2);
+  TermErase.char(n: 3);
   wait();
-  TermCursor.right(n: 2);
-  wait();
-  TermCursor.left(n: 2);
-  wait();
-  TermCursor.scrollUp();
-  wait();
-  TermCursor.scrollDown();
-  wait();
-  TermCursor.insertLine();
-  wait();
-  stdout.write('This is normal text');
-  wait();
-  TermCursor.deleteLine();
-  wait();
-  stdout.write('This is normal text');
-  wait();
-  TermCursor.left(n: 3);
-  TermCursor.deleteChar(n: 3);
-  wait();
-  TermCursor.setStyle(style: TermCursorStyle.bar);
+  TermCursor.down();
 }
 
 /// Wait for a while, or we can't see the output.

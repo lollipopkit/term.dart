@@ -35,7 +35,7 @@ abstract final class TermErase {
   }
 
   /// Clear the character at the cursor position.
-  static void char() {
-    stdout.write('\x1B[P');
+  static void char({int n = 1}) {
+    stdout.write('\x1B[${n}X');
   }
 }

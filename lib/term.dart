@@ -3,4 +3,5 @@ library;
 
 export 'src/colors.dart';
 export 'src/cursor.dart';
+export 'src/erase.dart';
 export 'src/text.dart';
