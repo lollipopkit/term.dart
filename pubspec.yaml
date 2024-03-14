@@ -1,14 +1,12 @@
 name: term
 description: It's a library that controls the terminal, including the cursor, color, and text.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+version: 0.1.0
+repository: https://github.com/lollipopkit/term.dart
 
 environment:
-  sdk: ^3.3.1
+  sdk: ^3.0.0
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
 
 dev_dependencies:
   lints: ^3.0.0
